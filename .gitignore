@@ -1,0 +1,9 @@
+/data/
+/output/
+
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+*.log
