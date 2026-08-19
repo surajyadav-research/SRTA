@@ -2,6 +2,8 @@
 
 **Accepted at ECCV Workshop — Archival Track**
 
+**Paper:** [link](https://arxiv.org/pdf/2608.16384v1)
+
 ## Abstract
 
 Universal visual representations require adaptation mechanisms that work across heterogeneous domains without fragmenting knowledge into domain-specific modules. SRTA introduces a compact parameter-efficient framework that projects each input into a low-rank space, derives routing weights directly from this representation using a learnable domain-coordinate matrix, and uses those weights to blend slices of a shared Tucker core. This produces a sample-specific adaptation matrix without an external gating network, enabling shared visual factors to be reused while retaining domain-aware specialization. A progressive depth-weighted routing objective further supervises routing decisions across adapter layers. Across five multi-domain visual classification benchmarks, SRTA achieves competitive or slightly stronger average accuracy than MoE-style PEFT baselines while using substantially fewer trainable parameters.
@@ -118,11 +120,13 @@ Main paper results at rank 64:
 ## Citation
 
 ```bibtex
-@inproceedings{yadav2026srta,
-  title     = {Self-Routed Tensor Adapters for Parameter-Efficient Universal Visual Adaptation},
-  author    = {Yadav, Suraj},
-  booktitle = {ECCV Workshop},
-  year      = {2026},
-  note      = {Archival Track}
+@misc{yadav2026selfroutedtensoradaptersparameterefficient,
+      title={Self-Routed Tensor Adapters for Parameter-Efficient Universal Visual Adaptation}, 
+      author={Suraj Yadav},
+      year={2026},
+      eprint={2608.16384},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2608.16384}, 
 }
 ```
