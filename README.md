@@ -3,7 +3,7 @@
 **Accepted at ECCV Workshop — Archival Track**
 
 **Paper:** [link](https://arxiv.org/pdf/2608.16384v1)
-
+**Dataset:** [link](https://drive.google.com/drive/folders/1msLwydNz7tOc0ODQKVG-PmA6KkKz8XPz?usp=sharing)
 ## Abstract
 
 Universal visual representations require adaptation mechanisms that work across heterogeneous domains without fragmenting knowledge into domain-specific modules. SRTA introduces a compact parameter-efficient framework that projects each input into a low-rank space, derives routing weights directly from this representation using a learnable domain-coordinate matrix, and uses those weights to blend slices of a shared Tucker core. This produces a sample-specific adaptation matrix without an external gating network, enabling shared visual factors to be reused while retaining domain-aware specialization. A progressive depth-weighted routing objective further supervises routing decisions across adapter layers. Across five multi-domain visual classification benchmarks, SRTA achieves competitive or slightly stronger average accuracy than MoE-style PEFT baselines while using substantially fewer trainable parameters.
